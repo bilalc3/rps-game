@@ -3,9 +3,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>RPS GAME</title>
+    <script  src = "./rps-script.js" defer ></script>
+    <link rel="stylesheet" href="./rps-style.css">
+
+
+
 </head>
 <body>
-    <script src = "script.js"></script>
+    <h1 class="newheading">Rock, Paper and Scissors</h1>
+
+    <div id="container"></div>
+    
+    <div class="playContainer">
+        <div class="rockContainer">
+            <img class = "play" data-key="rock" src="./images/rock.jpeg" alt="rock" id ="#rock" class="playImage"></img>
+            <p class = "info">Rock</p>
+        </div>
+        <div class="paperContainer">
+            <img class = "play" data-key="paper" src="./images/paper.jpeg" alt="paper" class="playImage">
+            <p class = "info" >Paper</p>
+        </div>
+        <div class="scissorsContainer">
+            <img class = "play" data-key="scissors" src="./images/scissors.jpeg" alt="scissors" class="playImage">
+            <p class="info"> Scissors</p>
+        </div>
+    </div>
+
+
+
 </body>
+
 </html>
